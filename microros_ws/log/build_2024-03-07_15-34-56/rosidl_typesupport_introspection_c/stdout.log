@@ -1,0 +1,56 @@
+[35m[1mScanning dependencies of target rosidl_typesupport_introspection_c[0m
+[ 50%] [32mBuilding C object CMakeFiles/rosidl_typesupport_introspection_c.dir/src/identifier.c.o[0m
+[100%] [32m[1mLinking C shared library librosidl_typesupport_introspection_c.so[0m
+[100%] Built target rosidl_typesupport_introspection_c
+-- Install configuration: ""
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/environment/pythonpath.sh
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/environment/pythonpath.dsv
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/lib/python3.8/site-packages/rosidl_typesupport_introspection_c
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/lib/python3.8/site-packages/rosidl_typesupport_introspection_c/__init__.py
+Listing '/home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/lib/python3.8/site-packages/rosidl_typesupport_introspection_c'...
+Compiling '/home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/lib/python3.8/site-packages/rosidl_typesupport_introspection_c/__init__.py'...
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/environment/library_path.sh
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/environment/library_path.dsv
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/share/ament_index/resource_index/rosidl_typesupport_c/rosidl_typesupport_introspection_c
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/share/ament_index/resource_index/rosidl_runtime_packages/rosidl_typesupport_introspection_c
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/share/ament_index/resource_index/package_run_dependencies/rosidl_typesupport_introspection_c
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/share/ament_index/resource_index/parent_prefix_path/rosidl_typesupport_introspection_c
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/environment/ament_prefix_path.sh
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/environment/ament_prefix_path.dsv
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/environment/path.sh
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/environment/path.dsv
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/local_setup.bash
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/local_setup.sh
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/local_setup.zsh
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/local_setup.dsv
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/package.dsv
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/share/ament_index/resource_index/packages/rosidl_typesupport_introspection_c
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/cmake/rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/cmake/rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/cmake/rosidl_typesupport_introspection_c-extras.cmake
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/cmake/rosidl_typesupport_introspection_cConfig.cmake
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/cmake/rosidl_typesupport_introspection_cConfig-version.cmake
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/package.xml
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c
+-- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/cmake
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/cmake/rosidl_typesupport_introspection_c_generate_interfaces.cmake
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/resource
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/resource/idl__rosidl_typesupport_introspection_c.h.em
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/resource/rosidl_typesupport_introspection_c__visibility_control.h.in
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/resource/msg__rosidl_typesupport_introspection_c.h.em
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/resource/idl__type_support.c.em
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/include
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/include/rosidl_typesupport_introspection_c
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/include/rosidl_typesupport_introspection_c/identifier.h
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/include/rosidl_typesupport_introspection_c/field_types.h
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/include/rosidl_typesupport_introspection_c/visibility_control.h
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/include/rosidl_typesupport_introspection_c/service_introspection.h
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/include/rosidl_typesupport_introspection_c/message_introspection.h
+-- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c/lib/librosidl_typesupport_introspection_c.so

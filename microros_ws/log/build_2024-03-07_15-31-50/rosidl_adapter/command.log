@@ -1,0 +1,1 @@
+Invoking command in '/home/orin_nano/microros_ws/build/rosidl_adapter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/orin_nano/microros_ws/rosidl-foxy/rosidl_adapter -DCMAKE_INSTALL_PREFIX=/home/orin_nano/microros_ws/install/rosidl_adapter

@@ -1,0 +1,10 @@
+/home/orin_nano/microros_ws/build/rosidl_typesupport_introspection_cpp/CMakeFiles/install/strip.dir
+/home/orin_nano/microros_ws/build/rosidl_typesupport_introspection_cpp/CMakeFiles/install/local.dir
+/home/orin_nano/microros_ws/build/rosidl_typesupport_introspection_cpp/CMakeFiles/install.dir
+/home/orin_nano/microros_ws/build/rosidl_typesupport_introspection_cpp/CMakeFiles/list_install_components.dir
+/home/orin_nano/microros_ws/build/rosidl_typesupport_introspection_cpp/CMakeFiles/rebuild_cache.dir
+/home/orin_nano/microros_ws/build/rosidl_typesupport_introspection_cpp/CMakeFiles/edit_cache.dir
+/home/orin_nano/microros_ws/build/rosidl_typesupport_introspection_cpp/CMakeFiles/test.dir
+/home/orin_nano/microros_ws/build/rosidl_typesupport_introspection_cpp/CMakeFiles/rosidl_typesupport_introspection_cpp.dir
+/home/orin_nano/microros_ws/build/rosidl_typesupport_introspection_cpp/CMakeFiles/rosidl_typesupport_introspection_cpp_uninstall.dir
+/home/orin_nano/microros_ws/build/rosidl_typesupport_introspection_cpp/CMakeFiles/uninstall.dir

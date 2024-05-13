@@ -1,0 +1,37 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+CMake Error at CMakeLists.txt:19 (find_package):
+  By not providing "Findperformance_test_fixture.cmake" in CMAKE_MODULE_PATH
+  this project has asked CMake to find a package configuration file provided
+  by "performance_test_fixture", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "performance_test_fixture" with any of the following names:
+
+    performance_test_fixtureConfig.cmake
+    performance_test_fixture-config.cmake
+
+  Add the installation prefix of "performance_test_fixture" to
+  CMAKE_PREFIX_PATH or set "performance_test_fixture_DIR" to a directory
+  containing one of the above files.  If "performance_test_fixture" provides
+  a separate development package or SDK, be sure it has been installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/orin_nano/microros_ws/build/rosidl_runtime_cpp/CMakeFiles/CMakeOutput.log".

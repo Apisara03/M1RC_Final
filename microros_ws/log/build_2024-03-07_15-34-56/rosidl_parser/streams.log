@@ -1,0 +1,29 @@
+[2.816s] Invoking command in '/home/orin_nano/microros_ws/build/rosidl_parser': AMENT_PREFIX_PATH=/home/orin_nano/microros_ws/install/rosidl_adapter:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/microros_ws/install/rosidl_adapter:/home/orin_nano/microros_ws/install/micro_ros_setup:/home/orin_nano/microros_ws/install/micro_ros_agent:/home/orin_nano/microros_ws/install/micro_ros_msgs:/home/orin_nano/install/joy:/opt/ros/foxy PYTHONPATH=/home/orin_nano/microros_ws/install/rosidl_adapter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orin_nano/microros_ws/build/rosidl_parser -- -j6 -l6
+[3.947s] Invoked command in '/home/orin_nano/microros_ws/build/rosidl_parser' returned '0': AMENT_PREFIX_PATH=/home/orin_nano/microros_ws/install/rosidl_adapter:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/microros_ws/install/rosidl_adapter:/home/orin_nano/microros_ws/install/micro_ros_setup:/home/orin_nano/microros_ws/install/micro_ros_agent:/home/orin_nano/microros_ws/install/micro_ros_msgs:/home/orin_nano/install/joy:/opt/ros/foxy PYTHONPATH=/home/orin_nano/microros_ws/install/rosidl_adapter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orin_nano/microros_ws/build/rosidl_parser -- -j6 -l6
+[8.797s] Invoking command in '/home/orin_nano/microros_ws/build/rosidl_parser': AMENT_PREFIX_PATH=/home/orin_nano/microros_ws/install/rosidl_adapter:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/microros_ws/install/rosidl_adapter:/home/orin_nano/microros_ws/install/micro_ros_setup:/home/orin_nano/microros_ws/install/micro_ros_agent:/home/orin_nano/microros_ws/install/micro_ros_msgs:/home/orin_nano/install/joy:/opt/ros/foxy PYTHONPATH=/home/orin_nano/microros_ws/install/rosidl_adapter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/orin_nano/microros_ws/build/rosidl_parser
+[11.850s] -- Install configuration: ""
+[11.851s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_parser/share/rosidl_parser/environment/pythonpath.sh
+[11.851s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_parser/share/rosidl_parser/environment/pythonpath.dsv
+[11.851s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_parser/lib/python3.8/site-packages/rosidl_parser
+[11.851s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_parser/lib/python3.8/site-packages/rosidl_parser/__init__.py
+[11.851s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_parser/lib/python3.8/site-packages/rosidl_parser/definition.py
+[11.852s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_parser/lib/python3.8/site-packages/rosidl_parser/grammar.lark
+[11.852s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_parser/lib/python3.8/site-packages/rosidl_parser/parser.py
+[11.852s] Listing '/home/orin_nano/microros_ws/install/rosidl_parser/lib/python3.8/site-packages/rosidl_parser'...
+[11.852s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_parser/share/ament_index/resource_index/package_run_dependencies/rosidl_parser
+[11.852s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_parser/share/ament_index/resource_index/parent_prefix_path/rosidl_parser
+[11.853s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_parser/share/rosidl_parser/environment/ament_prefix_path.sh
+[11.853s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_parser/share/rosidl_parser/environment/ament_prefix_path.dsv
+[11.853s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_parser/share/rosidl_parser/environment/path.sh
+[11.853s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_parser/share/rosidl_parser/environment/path.dsv
+[11.853s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_parser/share/rosidl_parser/local_setup.bash
+[11.854s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_parser/share/rosidl_parser/local_setup.sh
+[11.854s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_parser/share/rosidl_parser/local_setup.zsh
+[11.854s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_parser/share/rosidl_parser/local_setup.dsv
+[11.854s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_parser/share/rosidl_parser/package.dsv
+[11.855s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_parser/share/ament_index/resource_index/packages/rosidl_parser
+[11.855s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_parser/share/rosidl_parser/cmake/rosidl_parserConfig.cmake
+[11.855s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_parser/share/rosidl_parser/cmake/rosidl_parserConfig-version.cmake
+[11.855s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_parser/share/rosidl_parser/package.xml
+[11.855s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_parser/lib/rosidl_parser/idl2png
+[13.110s] Invoked command in '/home/orin_nano/microros_ws/build/rosidl_parser' returned '0': AMENT_PREFIX_PATH=/home/orin_nano/microros_ws/install/rosidl_adapter:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/microros_ws/install/rosidl_adapter:/home/orin_nano/microros_ws/install/micro_ros_setup:/home/orin_nano/microros_ws/install/micro_ros_agent:/home/orin_nano/microros_ws/install/micro_ros_msgs:/home/orin_nano/install/joy:/opt/ros/foxy PYTHONPATH=/home/orin_nano/microros_ws/install/rosidl_adapter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/orin_nano/microros_ws/build/rosidl_parser

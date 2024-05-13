@@ -1,0 +1,15 @@
+[5.132s] Invoking command in '/home/orin_nano/microros_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/microros_ws/build/micro_ros_msgs -- -j6 -l6
+[5.283s] [  2%] Built target micro_ros_msgs__cpp
+[5.284s] [ 12%] Built target micro_ros_msgs__rosidl_generator_c
+[5.349s] [ 23%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c
+[5.366s] [ 34%] Built target micro_ros_msgs__rosidl_typesupport_c
+[5.426s] [ 44%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[5.434s] [ 55%] Built target micro_ros_msgs__rosidl_typesupport_cpp
+[5.448s] [ 65%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp
+[5.482s] [ 76%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c
+[5.533s] [ 76%] Built target micro_ros_msgs
+[5.579s] [ 78%] Built target micro_ros_msgs__py
+[5.640s] [ 87%] Built target micro_ros_msgs__python
+[5.714s] [ 91%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext
+[5.733s] [ 95%] Built target micro_ros_msgs__rosidl_typesupport_c__pyext
+[5.737s] [100%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext

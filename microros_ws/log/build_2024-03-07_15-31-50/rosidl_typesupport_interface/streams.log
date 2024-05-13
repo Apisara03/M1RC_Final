@@ -1,0 +1,40 @@
+[6.277s] Invoking command in '/home/orin_nano/microros_ws/build/rosidl_typesupport_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/orin_nano/microros_ws/rosidl-foxy/rosidl_typesupport_interface -DCMAKE_INSTALL_PREFIX=/home/orin_nano/microros_ws/install/rosidl_typesupport_interface
+[6.347s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[6.388s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[6.389s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.862s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[7.125s] -- The C compiler identification is GNU 9.4.0
+[7.240s] -- The CXX compiler identification is GNU 9.4.0
+[7.248s] -- Check for working C compiler: /usr/bin/cc
+[7.394s] -- Check for working C compiler: /usr/bin/cc -- works
+[7.396s] -- Detecting C compiler ABI info
+[7.557s] -- Detecting C compiler ABI info - done
+[7.576s] -- Detecting C compile features
+[7.577s] -- Detecting C compile features - done
+[7.582s] -- Check for working CXX compiler: /usr/bin/c++
+[7.741s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[7.743s] -- Detecting CXX compiler ABI info
+[7.906s] -- Detecting CXX compiler ABI info - done
+[7.925s] -- Detecting CXX compile features
+[7.926s] -- Detecting CXX compile features - done
+[7.932s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[7.938s] -- Looking for pthread.h
+[8.105s] -- Looking for pthread.h - found
+[8.106s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.258s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[8.259s] -- Check if compiler accepts -pthread
+[8.410s] -- Check if compiler accepts -pthread - yes
+[8.411s] -- Found Threads: TRUE  
+[8.419s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.422s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.423s] -- Configured cppcheck include dirs: /home/orin_nano/microros_ws/rosidl-foxy/rosidl_typesupport_interface/include
+[8.424s] -- Configured cppcheck exclude dirs and/or files: 
+[8.425s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.425s] -- Configured cpplint exclude dirs and/or files: 
+[8.426s] -- Added test 'lint_cmake' to check CMake code style
+[8.427s] -- Added test 'uncrustify' to check C / C++ code style
+[8.427s] -- Configured uncrustify additional arguments: 
+[8.428s] -- Added test 'xmllint' to check XML markup files
+[8.434s] -- Configuring done
+[8.447s] -- Generating done
+[8.451s] -- Build files have been written to: /home/orin_nano/microros_ws/build/rosidl_typesupport_interface

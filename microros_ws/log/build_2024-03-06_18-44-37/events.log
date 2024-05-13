@@ -1,0 +1,284 @@
+[0.000000] (-) TimerEvent: {}
+[0.000705] (-) JobUnselected: {'identifier': 'drive_base_msgs'}
+[0.000914] (-) JobUnselected: {'identifier': 'micro_ros_setup'}
+[0.001349] (micro_ros_msgs) JobQueued: {'identifier': 'micro_ros_msgs', 'dependencies': OrderedDict()}
+[0.001677] (micro_ros_agent) JobQueued: {'identifier': 'micro_ros_agent', 'dependencies': OrderedDict([('micro_ros_msgs', '/home/orin_nano/microros_ws/install/micro_ros_msgs')])}
+[0.001843] (micro_ros_msgs) JobStarted: {'identifier': 'micro_ros_msgs'}
+[0.099462] (-) TimerEvent: {}
+[0.200254] (-) TimerEvent: {}
+[0.301207] (-) TimerEvent: {}
+[0.401754] (-) TimerEvent: {}
+[0.502851] (-) TimerEvent: {}
+[0.603568] (-) TimerEvent: {}
+[0.704833] (-) TimerEvent: {}
+[0.805446] (-) TimerEvent: {}
+[0.906584] (-) TimerEvent: {}
+[1.008412] (-) TimerEvent: {}
+[1.109451] (-) TimerEvent: {}
+[1.211307] (-) TimerEvent: {}
+[1.305842] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'cmake'}
+[1.308335] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'build'}
+[1.310392] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orin_nano/microros_ws/build/micro_ros_msgs', '--', '-j6', '-l6'], 'cwd': '/home/orin_nano/microros_ws/build/micro_ros_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin_nano'), ('SSH_AGENT_PID', '2724'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/orin_nano/microros_ws/install/micro_ros_agent/lib:/home/orin_nano/microros_ws/install/micro_ros_msgs/lib:/home/orin_nano/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/orin_nano'), ('OLDPWD', '/home/orin_nano/microros_ws/micro_ros_msgs'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2623'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/orin_nano/microros_ws/install:/home/orin_nano/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'orin_nano'), ('JOURNAL_STREAM', '8:60429'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin_nano'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/orin_nano/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2759,unix/ubuntu:/tmp/.ICE-unix/2759'), ('INVOCATION_ID', '85d60366bd3f402f851fefa0b1394ff8'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/86f3d7a1_f7f7_490f_b7fc_37c7e4526235'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.80'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin_nano/microros_ws/install/micro_ros_setup:/home/orin_nano/microros_ws/install/micro_ros_agent:/home/orin_nano/microros_ws/install/micro_ros_msgs:/home/orin_nano/install/joy:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/orin_nano/microros_ws/build/micro_ros_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin_nano/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/orin_nano/microros_ws/install/micro_ros_setup:/home/orin_nano/microros_ws/install/micro_ros_agent:/home/orin_nano/microros_ws/install/micro_ros_msgs:/home/orin_nano/install/joy:/opt/ros/foxy')]), 'shell': False}
+[1.313297] (-) TimerEvent: {}
+[1.414153] (-) TimerEvent: {}
+[1.476433] (micro_ros_msgs) StdoutLine: {'line': b'[  4%] Built target micro_ros_msgs__cpp\n'}
+[1.477145] (micro_ros_msgs) StdoutLine: {'line': b'[ 12%] Built target micro_ros_msgs__rosidl_generator_c\n'}
+[1.514310] (-) TimerEvent: {}
+[1.526818] (micro_ros_msgs) StdoutLine: {'line': b'[ 44%] Built target micro_ros_msgs__rosidl_typesupport_cpp\n'}
+[1.527440] (micro_ros_msgs) StdoutLine: {'line': b'[ 44%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c\n'}
+[1.527656] (micro_ros_msgs) StdoutLine: {'line': b'[ 44%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp\n'}
+[1.534987] (micro_ros_msgs) StdoutLine: {'line': b'[ 55%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[1.575514] (micro_ros_msgs) StdoutLine: {'line': b'[ 65%] Built target micro_ros_msgs__rosidl_typesupport_c\n'}
+[1.590469] (micro_ros_msgs) StdoutLine: {'line': b'[ 76%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c\n'}
+[1.614438] (-) TimerEvent: {}
+[1.632806] (micro_ros_msgs) StdoutLine: {'line': b'[ 76%] Built target micro_ros_msgs\n'}
+[1.678304] (micro_ros_msgs) StdoutLine: {'line': b'[ 78%] Built target micro_ros_msgs__py\n'}
+[1.714636] (-) TimerEvent: {}
+[1.735141] (micro_ros_msgs) StdoutLine: {'line': b'[ 87%] Built target micro_ros_msgs__python\n'}
+[1.791359] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target micro_ros_msgs__rosidl_typesupport_c__pyext\n'}
+[1.791881] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[1.792054] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.814835] (-) TimerEvent: {}
+[1.817737] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[1.915021] (-) TimerEvent: {}
+[1.977761] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'install'}
+[2.003125] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/orin_nano/microros_ws/build/micro_ros_msgs'], 'cwd': '/home/orin_nano/microros_ws/build/micro_ros_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin_nano'), ('SSH_AGENT_PID', '2724'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/orin_nano/microros_ws/install/micro_ros_agent/lib:/home/orin_nano/microros_ws/install/micro_ros_msgs/lib:/home/orin_nano/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/orin_nano'), ('OLDPWD', '/home/orin_nano/microros_ws/micro_ros_msgs'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2623'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/orin_nano/microros_ws/install:/home/orin_nano/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'orin_nano'), ('JOURNAL_STREAM', '8:60429'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin_nano'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/orin_nano/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2759,unix/ubuntu:/tmp/.ICE-unix/2759'), ('INVOCATION_ID', '85d60366bd3f402f851fefa0b1394ff8'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/86f3d7a1_f7f7_490f_b7fc_37c7e4526235'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.80'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin_nano/microros_ws/install/micro_ros_setup:/home/orin_nano/microros_ws/install/micro_ros_agent:/home/orin_nano/microros_ws/install/micro_ros_msgs:/home/orin_nano/install/joy:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/orin_nano/microros_ws/build/micro_ros_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin_nano/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/orin_nano/microros_ws/install/micro_ros_setup:/home/orin_nano/microros_ws/install/micro_ros_agent:/home/orin_nano/microros_ws/install/micro_ros_msgs:/home/orin_nano/install/joy:/opt/ros/foxy')]), 'shell': False}
+[2.015177] (-) TimerEvent: {}
+[2.029147] (micro_ros_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.029708] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs\n'}
+[2.029973] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs\n'}
+[2.030139] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg\n'}
+[2.030413] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail\n'}
+[2.030703] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__functions.c\n'}
+[2.031154] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__functions.c\n'}
+[2.031659] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__type_support.h\n'}
+[2.031859] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__struct.h\n'}
+[2.032007] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__type_support.h\n'}
+[2.032144] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__struct.h\n'}
+[2.032315] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__struct.h\n'}
+[2.032446] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__functions.c\n'}
+[2.032572] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__functions.h\n'}
+[2.032759] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__functions.h\n'}
+[2.033140] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__type_support.h\n'}
+[2.033275] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__functions.h\n'}
+[2.033402] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/graph.h\n'}
+[2.033528] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/entity.h\n'}
+[2.033649] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/node.h\n'}
+[2.033772] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.033998] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh\n'}
+[2.034135] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv\n'}
+[2.034315] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so\n'}
+[2.034572] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs\n'}
+[2.034822] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg\n'}
+[2.034960] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail\n'}
+[2.035089] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h\n'}
+[2.035217] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h\n'}
+[2.035340] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h\n'}
+[2.035501] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.035716] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[2.035868] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs\n'}
+[2.035998] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg\n'}
+[2.036237] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail\n'}
+[2.036439] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.036880] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.037123] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/dds_fastrtps\n'}
+[2.037348] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.037514] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.037659] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.037792] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs\n'}
+[2.037918] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg\n'}
+[2.038042] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail\n'}
+[2.038223] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__type_support.c\n'}
+[2.038352] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__type_support.c\n'}
+[2.038477] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h\n'}
+[2.038757] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__type_support.c\n'}
+[2.038889] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h\n'}
+[2.039014] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h\n'}
+[2.039218] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.039511] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so\n'}
+[2.039788] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so\n'}
+[2.040066] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs\n'}
+[2.040307] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg\n'}
+[2.040576] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail\n'}
+[2.040773] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__builder.hpp\n'}
+[2.040899] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__struct.hpp\n'}
+[2.041019] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__traits.hpp\n'}
+[2.041138] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__traits.hpp\n'}
+[2.041256] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__traits.hpp\n'}
+[2.041373] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__struct.hpp\n'}
+[2.041493] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__type_support.hpp\n'}
+[2.041667] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__builder.hpp\n'}
+[2.041824] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__type_support.hpp\n'}
+[2.041948] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__builder.hpp\n'}
+[2.042068] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__type_support.hpp\n'}
+[2.042185] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__struct.hpp\n'}
+[2.042303] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/graph.hpp\n'}
+[2.042507] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[2.042662] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/node.hpp\n'}
+[2.042788] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/entity.hpp\n'}
+[2.043002] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs\n'}
+[2.043137] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg\n'}
+[2.043260] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail\n'}
+[2.043431] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.043556] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.043675] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__type_support.cpp\n'}
+[2.043793] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__type_support.cpp\n'}
+[2.043912] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__type_support.cpp\n'}
+[2.044029] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.044147] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[2.044264] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so\n'}
+[2.044383] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh\n'}
+[2.044501] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv\n'}
+[2.044618] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/__init__.py\n'}
+[2.111684] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg\n'}
+[2.112356] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_node.py\n'}
+[2.112582] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_entity_s.c\n'}
+[2.112878] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_entity.py\n'}
+[2.113085] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_node_s.c\n'}
+[2.113304] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_graph.py\n'}
+[2.113588] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/__init__.py\n'}
+[2.113787] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_graph_s.c\n'}
+[2.113972] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[2.114624] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[2.115274] (-) TimerEvent: {}
+[2.115982] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[2.117119] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__python.so\n'}
+[2.117696] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl\n'}
+[2.118060] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl\n'}
+[2.118312] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl\n'}
+[2.118539] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg\n'}
+[2.118777] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg\n'}
+[2.119016] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg\n'}
+[2.119237] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs\n'}
+[2.119597] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs\n'}
+[2.120035] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh\n'}
+[2.120225] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv\n'}
+[2.120382] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh\n'}
+[2.120594] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv\n'}
+[2.120735] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash\n'}
+[2.120868] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh\n'}
+[2.120996] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh\n'}
+[2.121121] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv\n'}
+[2.121243] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv\n'}
+[2.121365] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs\n'}
+[2.121548] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_generator_cExport.cmake\n'}
+[2.121772] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.122306] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.122515] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.123036] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake\n'}
+[2.123221] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.123699] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_generator_cppExport.cmake\n'}
+[2.124258] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.124441] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.124933] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[2.125114] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.125295] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[2.125511] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.125744] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.125954] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.126163] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.126344] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.126480] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.126650] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake\n'}
+[2.126782] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake\n'}
+[2.126911] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.xml\n'}
+[2.131396] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[2.215523] (-) TimerEvent: {}
+[2.317029] (-) TimerEvent: {}
+[2.417722] (-) TimerEvent: {}
+[2.518799] (-) TimerEvent: {}
+[2.619536] (-) TimerEvent: {}
+[2.720764] (-) TimerEvent: {}
+[2.821403] (-) TimerEvent: {}
+[2.921931] (-) TimerEvent: {}
+[3.022566] (-) TimerEvent: {}
+[3.123547] (-) TimerEvent: {}
+[3.224291] (-) TimerEvent: {}
+[3.326680] (-) TimerEvent: {}
+[3.427416] (-) TimerEvent: {}
+[3.528078] (-) TimerEvent: {}
+[3.628780] (-) TimerEvent: {}
+[3.729682] (-) TimerEvent: {}
+[3.830299] (-) TimerEvent: {}
+[3.931058] (-) TimerEvent: {}
+[4.031681] (-) TimerEvent: {}
+[4.132229] (-) TimerEvent: {}
+[4.233184] (-) TimerEvent: {}
+[4.334046] (-) TimerEvent: {}
+[4.434597] (-) TimerEvent: {}
+[4.535490] (-) TimerEvent: {}
+[4.636198] (-) TimerEvent: {}
+[4.737642] (-) TimerEvent: {}
+[4.838594] (-) TimerEvent: {}
+[4.939040] (-) TimerEvent: {}
+[5.039430] (-) TimerEvent: {}
+[5.057243] (micro_ros_msgs) JobEnded: {'identifier': 'micro_ros_msgs', 'rc': 0}
+[5.058665] (micro_ros_agent) JobStarted: {'identifier': 'micro_ros_agent'}
+[5.139706] (-) TimerEvent: {}
+[5.240905] (-) TimerEvent: {}
+[5.341549] (-) TimerEvent: {}
+[5.442647] (-) TimerEvent: {}
+[5.543547] (-) TimerEvent: {}
+[5.644289] (-) TimerEvent: {}
+[5.744840] (-) TimerEvent: {}
+[5.845543] (-) TimerEvent: {}
+[5.946771] (-) TimerEvent: {}
+[6.047470] (-) TimerEvent: {}
+[6.148235] (-) TimerEvent: {}
+[6.249240] (-) TimerEvent: {}
+[6.309683] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'cmake'}
+[6.311490] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'build'}
+[6.312026] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orin_nano/microros_ws/build/micro_ros_agent', '--', '-j6', '-l6'], 'cwd': '/home/orin_nano/microros_ws/build/micro_ros_agent', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin_nano'), ('SSH_AGENT_PID', '2724'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/orin_nano/microros_ws/install/micro_ros_msgs/lib:/home/orin_nano/microros_ws/install/micro_ros_agent/lib:/home/orin_nano/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64'), ('HOME', '/home/orin_nano'), ('OLDPWD', '/home/orin_nano/microros_ws/micro_ros_msgs'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2623'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/orin_nano/microros_ws/install:/home/orin_nano/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'orin_nano'), ('JOURNAL_STREAM', '8:60429'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin_nano'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/orin_nano/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2759,unix/ubuntu:/tmp/.ICE-unix/2759'), ('INVOCATION_ID', '85d60366bd3f402f851fefa0b1394ff8'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/86f3d7a1_f7f7_490f_b7fc_37c7e4526235'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.80'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin_nano/microros_ws/install/micro_ros_setup:/home/orin_nano/microros_ws/install/micro_ros_agent:/home/orin_nano/microros_ws/install/micro_ros_msgs:/home/orin_nano/install/joy:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/orin_nano/microros_ws/build/micro_ros_agent'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin_nano/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/orin_nano/microros_ws/install/micro_ros_msgs:/home/orin_nano/microros_ws/install/micro_ros_setup:/home/orin_nano/microros_ws/install/micro_ros_agent:/home/orin_nano/install/joy:/opt/ros/foxy')]), 'shell': False}
+[6.349393] (-) TimerEvent: {}
+[6.450056] (-) TimerEvent: {}
+[6.457590] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target micro_ros_agent\n'}
+[6.479748] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[6.540184] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'install'}
+[6.540964] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/orin_nano/microros_ws/build/micro_ros_agent'], 'cwd': '/home/orin_nano/microros_ws/build/micro_ros_agent', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin_nano'), ('SSH_AGENT_PID', '2724'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/orin_nano/microros_ws/install/micro_ros_msgs/lib:/home/orin_nano/microros_ws/install/micro_ros_agent/lib:/home/orin_nano/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64'), ('HOME', '/home/orin_nano'), ('OLDPWD', '/home/orin_nano/microros_ws/micro_ros_msgs'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2623'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/orin_nano/microros_ws/install:/home/orin_nano/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'orin_nano'), ('JOURNAL_STREAM', '8:60429'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin_nano'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/orin_nano/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2759,unix/ubuntu:/tmp/.ICE-unix/2759'), ('INVOCATION_ID', '85d60366bd3f402f851fefa0b1394ff8'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/86f3d7a1_f7f7_490f_b7fc_37c7e4526235'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.80'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin_nano/microros_ws/install/micro_ros_setup:/home/orin_nano/microros_ws/install/micro_ros_agent:/home/orin_nano/microros_ws/install/micro_ros_msgs:/home/orin_nano/install/joy:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/orin_nano/microros_ws/build/micro_ros_agent'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin_nano/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/orin_nano/microros_ws/install/micro_ros_msgs:/home/orin_nano/microros_ws/install/micro_ros_setup:/home/orin_nano/microros_ws/install/micro_ros_agent:/home/orin_nano/install/joy:/opt/ros/foxy')]), 'shell': False}
+[6.550166] (-) TimerEvent: {}
+[6.562681] (micro_ros_agent) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.563110] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent\n'}
+[6.563373] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent\n'}
+[6.563606] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh\n'}
+[6.563831] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv\n'}
+[6.564051] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh\n'}
+[6.564245] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv\n'}
+[6.564378] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash\n'}
+[6.564505] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh\n'}
+[6.564629] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh\n'}
+[6.564750] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv\n'}
+[6.564870] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/orin_nano/microros_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv\n'}
+[6.565042] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent\n'}
+[6.565232] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.565408] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake\n'}
+[6.565619] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake\n'}
+[6.565748] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml\n'}
+[6.566589] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent\n'}
+[6.566986] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_agent/share/micro_ros_agent/launch\n'}
+[6.567308] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py\n'}
+[6.571635] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[6.650734] (-) TimerEvent: {}
+[6.752096] (-) TimerEvent: {}
+[6.852946] (-) TimerEvent: {}
+[6.954511] (-) TimerEvent: {}
+[7.054994] (-) TimerEvent: {}
+[7.155843] (-) TimerEvent: {}
+[7.256972] (-) TimerEvent: {}
+[7.357632] (-) TimerEvent: {}
+[7.458647] (-) TimerEvent: {}
+[7.559780] (-) TimerEvent: {}
+[7.660763] (-) TimerEvent: {}
+[7.763542] (-) TimerEvent: {}
+[7.864722] (-) TimerEvent: {}
+[7.965729] (-) TimerEvent: {}
+[8.066993] (-) TimerEvent: {}
+[8.168536] (-) TimerEvent: {}
+[8.269835] (-) TimerEvent: {}
+[8.371337] (-) TimerEvent: {}
+[8.472516] (-) TimerEvent: {}
+[8.573887] (-) TimerEvent: {}
+[8.675188] (-) TimerEvent: {}
+[8.776343] (-) TimerEvent: {}
+[8.878401] (-) TimerEvent: {}
+[8.894114] (micro_ros_agent) JobEnded: {'identifier': 'micro_ros_agent', 'rc': 0}
+[8.896353] (-) EventReactorShutdown: {}

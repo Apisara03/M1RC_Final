@@ -1,0 +1,59 @@
+[7.528s] Invoking command in '/home/orin_nano/microros_ws/build/rosidl_adapter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/microros_ws/build/rosidl_adapter -- -j6 -l6
+[7.649s] Invoked command in '/home/orin_nano/microros_ws/build/rosidl_adapter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/microros_ws/build/rosidl_adapter -- -j6 -l6
+[7.790s] Invoking command in '/home/orin_nano/microros_ws/build/rosidl_adapter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/microros_ws/build/rosidl_adapter
+[7.837s] -- Install configuration: ""
+[7.837s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_adapter/share/rosidl_adapter/environment/pythonpath.sh
+[7.838s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_adapter/share/rosidl_adapter/environment/pythonpath.dsv
+[7.839s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter
+[7.840s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/action
+[7.841s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/action/__init__.py
+[7.841s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/srv
+[7.842s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/srv/__init__.py
+[7.843s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/resource
+[7.845s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/resource/srv.idl.em
+[7.846s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/resource/msg.idl.em
+[7.847s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py
+[7.849s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/resource/action.idl.em
+[7.850s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/resource/struct.idl.em
+[7.852s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/__init__.py
+[7.856s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/__main__.py
+[7.857s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/cli.py
+[7.858s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/main.py
+[7.858s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/parser.py
+[7.859s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/msg
+[7.859s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py
+[7.989s] Listing '/home/orin_nano/microros_ws/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter'...
+[7.990s] Compiling '/home/orin_nano/microros_ws/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/__init__.py'...
+[7.990s] Compiling '/home/orin_nano/microros_ws/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/__main__.py'...
+[7.990s] Listing '/home/orin_nano/microros_ws/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/action'...
+[7.990s] Compiling '/home/orin_nano/microros_ws/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/action/__init__.py'...
+[7.990s] Compiling '/home/orin_nano/microros_ws/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/cli.py'...
+[7.990s] Compiling '/home/orin_nano/microros_ws/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/main.py'...
+[7.990s] Listing '/home/orin_nano/microros_ws/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/msg'...
+[7.991s] Compiling '/home/orin_nano/microros_ws/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py'...
+[7.991s] Compiling '/home/orin_nano/microros_ws/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/parser.py'...
+[7.991s] Listing '/home/orin_nano/microros_ws/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/resource'...
+[7.991s] Compiling '/home/orin_nano/microros_ws/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py'...
+[7.991s] Listing '/home/orin_nano/microros_ws/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/srv'...
+[7.991s] Compiling '/home/orin_nano/microros_ws/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/srv/__init__.py'...
+[8.002s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_adapter/share/ament_index/resource_index/package_run_dependencies/rosidl_adapter
+[8.002s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_adapter/share/ament_index/resource_index/parent_prefix_path/rosidl_adapter
+[8.003s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_adapter/share/rosidl_adapter/environment/ament_prefix_path.sh
+[8.004s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_adapter/share/rosidl_adapter/environment/ament_prefix_path.dsv
+[8.004s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_adapter/share/rosidl_adapter/environment/path.sh
+[8.004s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_adapter/share/rosidl_adapter/environment/path.dsv
+[8.004s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_adapter/share/rosidl_adapter/local_setup.bash
+[8.005s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_adapter/share/rosidl_adapter/local_setup.sh
+[8.006s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_adapter/share/rosidl_adapter/local_setup.zsh
+[8.006s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_adapter/share/rosidl_adapter/local_setup.dsv
+[8.007s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_adapter/share/rosidl_adapter/package.dsv
+[8.007s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_adapter/share/ament_index/resource_index/packages/rosidl_adapter
+[8.007s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_adapter/share/rosidl_adapter/cmake/rosidl_adapter-extras.cmake
+[8.008s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_adapter/share/rosidl_adapter/cmake/rosidl_adapterConfig.cmake
+[8.008s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_adapter/share/rosidl_adapter/cmake/rosidl_adapterConfig-version.cmake
+[8.008s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_adapter/share/rosidl_adapter/package.xml
+[8.009s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_adapter/share/rosidl_adapter/cmake
+[8.009s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_adapter/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake
+[8.009s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_adapter/lib/rosidl_adapter/msg2idl.py
+[8.010s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_adapter/lib/rosidl_adapter/srv2idl.py
+[8.039s] Invoked command in '/home/orin_nano/microros_ws/build/rosidl_adapter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/microros_ws/build/rosidl_adapter

@@ -1,0 +1,4 @@
+Invoking command in '/home/orin_nano/microros_ws/build/rosidl_adapter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/microros_ws/build/rosidl_adapter -- -j6 -l6
+Invoked command in '/home/orin_nano/microros_ws/build/rosidl_adapter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/microros_ws/build/rosidl_adapter -- -j6 -l6
+Invoking command in '/home/orin_nano/microros_ws/build/rosidl_adapter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/microros_ws/build/rosidl_adapter
+Invoked command in '/home/orin_nano/microros_ws/build/rosidl_adapter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/microros_ws/build/rosidl_adapter

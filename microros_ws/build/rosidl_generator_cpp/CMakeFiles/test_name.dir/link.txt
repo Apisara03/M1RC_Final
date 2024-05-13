@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/test_name.dir/test/test_name.cpp.o  -o test_name  -Wl,-rpath,/home/orin_nano/microros_ws/install/rosidl_runtime_c/lib:/opt/ros/foxy/lib gtest/libgtest_main.a gtest/libgtest.a /home/orin_nano/microros_ws/install/rosidl_runtime_c/lib/librosidl_runtime_c.so -pthread /opt/ros/foxy/lib/librcutils.so -ldl 

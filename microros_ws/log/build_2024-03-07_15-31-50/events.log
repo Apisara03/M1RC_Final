@@ -1,0 +1,317 @@
+[0.000000] (-) TimerEvent: {}
+[0.000516] (drive_base_msgs) JobQueued: {'identifier': 'drive_base_msgs', 'dependencies': OrderedDict()}
+[0.000883] (micro_ros_msgs) JobQueued: {'identifier': 'micro_ros_msgs', 'dependencies': OrderedDict()}
+[0.001636] (micro_ros_setup) JobQueued: {'identifier': 'micro_ros_setup', 'dependencies': OrderedDict()}
+[0.001967] (rosidl_adapter) JobQueued: {'identifier': 'rosidl_adapter', 'dependencies': OrderedDict()}
+[0.002136] (rosidl_runtime_cpp) JobQueued: {'identifier': 'rosidl_runtime_cpp', 'dependencies': OrderedDict()}
+[0.002187] (rosidl_typesupport_interface) JobQueued: {'identifier': 'rosidl_typesupport_interface', 'dependencies': OrderedDict()}
+[0.002227] (micro_ros_agent) JobQueued: {'identifier': 'micro_ros_agent', 'dependencies': OrderedDict([('micro_ros_msgs', '/home/orin_nano/microros_ws/install/micro_ros_msgs')])}
+[0.002272] (rosidl_parser) JobQueued: {'identifier': 'rosidl_parser', 'dependencies': OrderedDict([('rosidl_adapter', '/home/orin_nano/microros_ws/install/rosidl_adapter')])}
+[0.002312] (rosidl_runtime_c) JobQueued: {'identifier': 'rosidl_runtime_c', 'dependencies': OrderedDict([('rosidl_typesupport_interface', '/home/orin_nano/microros_ws/install/rosidl_typesupport_interface')])}
+[0.002351] (rosidl_cmake) JobQueued: {'identifier': 'rosidl_cmake', 'dependencies': OrderedDict([('rosidl_adapter', '/home/orin_nano/microros_ws/install/rosidl_adapter'), ('rosidl_parser', '/home/orin_nano/microros_ws/install/rosidl_parser')])}
+[0.002393] (rosidl_generator_c) JobQueued: {'identifier': 'rosidl_generator_c', 'dependencies': OrderedDict([('rosidl_adapter', '/home/orin_nano/microros_ws/install/rosidl_adapter'), ('rosidl_typesupport_interface', '/home/orin_nano/microros_ws/install/rosidl_typesupport_interface'), ('rosidl_parser', '/home/orin_nano/microros_ws/install/rosidl_parser'), ('rosidl_runtime_c', '/home/orin_nano/microros_ws/install/rosidl_runtime_c'), ('rosidl_cmake', '/home/orin_nano/microros_ws/install/rosidl_cmake')])}
+[0.002449] (rosidl_typesupport_introspection_c) JobQueued: {'identifier': 'rosidl_typesupport_introspection_c', 'dependencies': OrderedDict([('rosidl_adapter', '/home/orin_nano/microros_ws/install/rosidl_adapter'), ('rosidl_typesupport_interface', '/home/orin_nano/microros_ws/install/rosidl_typesupport_interface'), ('rosidl_parser', '/home/orin_nano/microros_ws/install/rosidl_parser'), ('rosidl_runtime_c', '/home/orin_nano/microros_ws/install/rosidl_runtime_c'), ('rosidl_cmake', '/home/orin_nano/microros_ws/install/rosidl_cmake')])}
+[0.002496] (micro_ros_utilities) JobQueued: {'identifier': 'micro_ros_utilities', 'dependencies': OrderedDict([('rosidl_adapter', '/home/orin_nano/microros_ws/install/rosidl_adapter'), ('rosidl_typesupport_interface', '/home/orin_nano/microros_ws/install/rosidl_typesupport_interface'), ('rosidl_parser', '/home/orin_nano/microros_ws/install/rosidl_parser'), ('rosidl_runtime_c', '/home/orin_nano/microros_ws/install/rosidl_runtime_c'), ('rosidl_cmake', '/home/orin_nano/microros_ws/install/rosidl_cmake'), ('rosidl_typesupport_introspection_c', '/home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c')])}
+[0.002551] (rosidl_generator_cpp) JobQueued: {'identifier': 'rosidl_generator_cpp', 'dependencies': OrderedDict([('rosidl_adapter', '/home/orin_nano/microros_ws/install/rosidl_adapter'), ('rosidl_runtime_cpp', '/home/orin_nano/microros_ws/install/rosidl_runtime_cpp'), ('rosidl_typesupport_interface', '/home/orin_nano/microros_ws/install/rosidl_typesupport_interface'), ('rosidl_parser', '/home/orin_nano/microros_ws/install/rosidl_parser'), ('rosidl_runtime_c', '/home/orin_nano/microros_ws/install/rosidl_runtime_c'), ('rosidl_cmake', '/home/orin_nano/microros_ws/install/rosidl_cmake'), ('rosidl_generator_c', '/home/orin_nano/microros_ws/install/rosidl_generator_c')])}
+[0.002605] (rosidl_typesupport_introspection_cpp) JobQueued: {'identifier': 'rosidl_typesupport_introspection_cpp', 'dependencies': OrderedDict([('rosidl_adapter', '/home/orin_nano/microros_ws/install/rosidl_adapter'), ('rosidl_runtime_cpp', '/home/orin_nano/microros_ws/install/rosidl_runtime_cpp'), ('rosidl_typesupport_interface', '/home/orin_nano/microros_ws/install/rosidl_typesupport_interface'), ('rosidl_parser', '/home/orin_nano/microros_ws/install/rosidl_parser'), ('rosidl_runtime_c', '/home/orin_nano/microros_ws/install/rosidl_runtime_c'), ('rosidl_cmake', '/home/orin_nano/microros_ws/install/rosidl_cmake'), ('rosidl_typesupport_introspection_c', '/home/orin_nano/microros_ws/install/rosidl_typesupport_introspection_c')])}
+[0.002677] (rosidl_adapter) JobStarted: {'identifier': 'rosidl_adapter'}
+[0.099701] (-) TimerEvent: {}
+[0.201030] (-) TimerEvent: {}
+[0.301768] (-) TimerEvent: {}
+[0.402790] (-) TimerEvent: {}
+[0.503922] (-) TimerEvent: {}
+[0.605505] (-) TimerEvent: {}
+[0.706917] (-) TimerEvent: {}
+[0.808168] (-) TimerEvent: {}
+[0.909542] (-) TimerEvent: {}
+[1.010441] (-) TimerEvent: {}
+[1.112308] (-) TimerEvent: {}
+[1.215200] (-) TimerEvent: {}
+[1.268620] (rosidl_typesupport_interface) JobStarted: {'identifier': 'rosidl_typesupport_interface'}
+[1.315520] (-) TimerEvent: {}
+[1.417171] (-) TimerEvent: {}
+[1.518672] (-) TimerEvent: {}
+[1.619789] (-) TimerEvent: {}
+[1.720881] (-) TimerEvent: {}
+[1.822729] (-) TimerEvent: {}
+[1.924654] (-) TimerEvent: {}
+[2.025551] (-) TimerEvent: {}
+[2.126982] (-) TimerEvent: {}
+[2.228332] (-) TimerEvent: {}
+[2.329075] (-) TimerEvent: {}
+[2.430642] (-) TimerEvent: {}
+[2.523517] (rosidl_runtime_cpp) JobStarted: {'identifier': 'rosidl_runtime_cpp'}
+[2.530769] (-) TimerEvent: {}
+[2.631579] (-) TimerEvent: {}
+[2.733376] (-) TimerEvent: {}
+[2.834299] (-) TimerEvent: {}
+[2.935258] (-) TimerEvent: {}
+[3.035984] (-) TimerEvent: {}
+[3.136933] (-) TimerEvent: {}
+[3.237686] (-) TimerEvent: {}
+[3.338533] (-) TimerEvent: {}
+[3.439694] (-) TimerEvent: {}
+[3.540285] (-) TimerEvent: {}
+[3.641057] (-) TimerEvent: {}
+[3.741815] (-) TimerEvent: {}
+[3.774949] (micro_ros_msgs) JobStarted: {'identifier': 'micro_ros_msgs'}
+[3.842148] (-) TimerEvent: {}
+[3.943208] (-) TimerEvent: {}
+[4.045195] (-) TimerEvent: {}
+[4.145757] (-) TimerEvent: {}
+[4.246719] (-) TimerEvent: {}
+[4.347686] (-) TimerEvent: {}
+[4.448988] (-) TimerEvent: {}
+[4.550619] (-) TimerEvent: {}
+[4.651420] (-) TimerEvent: {}
+[4.752762] (-) TimerEvent: {}
+[4.853480] (-) TimerEvent: {}
+[4.955753] (-) TimerEvent: {}
+[5.026563] (drive_base_msgs) JobStarted: {'identifier': 'drive_base_msgs'}
+[5.055877] (-) TimerEvent: {}
+[5.157142] (-) TimerEvent: {}
+[5.257765] (-) TimerEvent: {}
+[5.358612] (-) TimerEvent: {}
+[5.459565] (-) TimerEvent: {}
+[5.560581] (-) TimerEvent: {}
+[5.661338] (-) TimerEvent: {}
+[5.762037] (-) TimerEvent: {}
+[5.862978] (-) TimerEvent: {}
+[5.964681] (-) TimerEvent: {}
+[6.065577] (-) TimerEvent: {}
+[6.166681] (-) TimerEvent: {}
+[6.269752] (-) TimerEvent: {}
+[6.274054] (micro_ros_setup) JobStarted: {'identifier': 'micro_ros_setup'}
+[6.369868] (-) TimerEvent: {}
+[6.470461] (-) TimerEvent: {}
+[6.571475] (-) TimerEvent: {}
+[6.672451] (-) TimerEvent: {}
+[6.774574] (-) TimerEvent: {}
+[6.875154] (-) TimerEvent: {}
+[6.976347] (-) TimerEvent: {}
+[7.077384] (-) TimerEvent: {}
+[7.178159] (-) TimerEvent: {}
+[7.279067] (-) TimerEvent: {}
+[7.379985] (-) TimerEvent: {}
+[7.480851] (-) TimerEvent: {}
+[7.526830] (rosidl_adapter) JobProgress: {'identifier': 'rosidl_adapter', 'progress': 'cmake'}
+[7.527462] (rosidl_adapter) Command: {'cmd': ['/usr/bin/cmake', '/home/orin_nano/microros_ws/rosidl-foxy/rosidl_adapter', '-DCMAKE_INSTALL_PREFIX=/home/orin_nano/microros_ws/install/rosidl_adapter'], 'cwd': '/home/orin_nano/microros_ws/build/rosidl_adapter', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin_nano'), ('SSH_AGENT_PID', '2670'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin_nano/microros_ws/install/micro_ros_agent/lib:/home/orin_nano/microros_ws/install/micro_ros_msgs/lib:/home/orin_nano/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/orin_nano'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2569'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c51c752105b91f3f8ff4f9fc65e97729'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/orin_nano/microros_ws/install:/home/orin_nano/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'orin_nano'), ('JOURNAL_STREAM', '8:55484'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin_nano'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/orin_nano/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2705,unix/ubuntu:/tmp/.ICE-unix/2705'), ('INVOCATION_ID', 'c0cd3141428e419ea39ebc6779eed743'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a7e7d0a6_9a60_407e_9857_c5160db59010'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.78'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin_nano/microros_ws/install/micro_ros_setup:/home/orin_nano/microros_ws/install/micro_ros_agent:/home/orin_nano/microros_ws/install/micro_ros_msgs:/home/orin_nano/install/joy:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/orin_nano/microros_ws/build/rosidl_adapter'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c51c752105b91f3f8ff4f9fc65e97729'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin_nano/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/orin_nano/microros_ws/install/micro_ros_setup:/home/orin_nano/microros_ws/install/micro_ros_agent:/home/orin_nano/microros_ws/install/micro_ros_msgs:/home/orin_nano/install/joy:/opt/ros/foxy')]), 'shell': False}
+[7.541002] (rosidl_typesupport_interface) JobProgress: {'identifier': 'rosidl_typesupport_interface', 'progress': 'cmake'}
+[7.541544] (rosidl_typesupport_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/orin_nano/microros_ws/rosidl-foxy/rosidl_typesupport_interface', '-DCMAKE_INSTALL_PREFIX=/home/orin_nano/microros_ws/install/rosidl_typesupport_interface'], 'cwd': '/home/orin_nano/microros_ws/build/rosidl_typesupport_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin_nano'), ('SSH_AGENT_PID', '2670'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin_nano/microros_ws/install/micro_ros_agent/lib:/home/orin_nano/microros_ws/install/micro_ros_msgs/lib:/home/orin_nano/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/orin_nano'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2569'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c51c752105b91f3f8ff4f9fc65e97729'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/orin_nano/microros_ws/install:/home/orin_nano/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'orin_nano'), ('JOURNAL_STREAM', '8:55484'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin_nano'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/orin_nano/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2705,unix/ubuntu:/tmp/.ICE-unix/2705'), ('INVOCATION_ID', 'c0cd3141428e419ea39ebc6779eed743'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a7e7d0a6_9a60_407e_9857_c5160db59010'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.78'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin_nano/microros_ws/install/micro_ros_setup:/home/orin_nano/microros_ws/install/micro_ros_agent:/home/orin_nano/microros_ws/install/micro_ros_msgs:/home/orin_nano/install/joy:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/orin_nano/microros_ws/build/rosidl_typesupport_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c51c752105b91f3f8ff4f9fc65e97729'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin_nano/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/orin_nano/microros_ws/install/micro_ros_setup:/home/orin_nano/microros_ws/install/micro_ros_agent:/home/orin_nano/microros_ws/install/micro_ros_msgs:/home/orin_nano/install/joy:/opt/ros/foxy')]), 'shell': False}
+[7.549323] (rosidl_runtime_cpp) JobProgress: {'identifier': 'rosidl_runtime_cpp', 'progress': 'cmake'}
+[7.549781] (rosidl_runtime_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/orin_nano/microros_ws/rosidl-foxy/rosidl_runtime_cpp', '-DCMAKE_INSTALL_PREFIX=/home/orin_nano/microros_ws/install/rosidl_runtime_cpp'], 'cwd': '/home/orin_nano/microros_ws/build/rosidl_runtime_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin_nano'), ('SSH_AGENT_PID', '2670'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin_nano/microros_ws/install/micro_ros_agent/lib:/home/orin_nano/microros_ws/install/micro_ros_msgs/lib:/home/orin_nano/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/orin_nano'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2569'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c51c752105b91f3f8ff4f9fc65e97729'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/orin_nano/microros_ws/install:/home/orin_nano/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'orin_nano'), ('JOURNAL_STREAM', '8:55484'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin_nano'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/orin_nano/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2705,unix/ubuntu:/tmp/.ICE-unix/2705'), ('INVOCATION_ID', 'c0cd3141428e419ea39ebc6779eed743'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a7e7d0a6_9a60_407e_9857_c5160db59010'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.78'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin_nano/microros_ws/install/micro_ros_setup:/home/orin_nano/microros_ws/install/micro_ros_agent:/home/orin_nano/microros_ws/install/micro_ros_msgs:/home/orin_nano/install/joy:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/orin_nano/microros_ws/build/rosidl_runtime_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c51c752105b91f3f8ff4f9fc65e97729'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin_nano/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/orin_nano/microros_ws/install/micro_ros_setup:/home/orin_nano/microros_ws/install/micro_ros_agent:/home/orin_nano/microros_ws/install/micro_ros_msgs:/home/orin_nano/install/joy:/opt/ros/foxy')]), 'shell': False}
+[7.556937] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'cmake'}
+[7.559207] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/orin_nano/microros_ws/src/uros/micro_ros_msgs', '-DCMAKE_INSTALL_PREFIX=/home/orin_nano/microros_ws/install/micro_ros_msgs'], 'cwd': '/home/orin_nano/microros_ws/build/micro_ros_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin_nano'), ('SSH_AGENT_PID', '2670'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin_nano/microros_ws/install/micro_ros_agent/lib:/home/orin_nano/microros_ws/install/micro_ros_msgs/lib:/home/orin_nano/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/orin_nano'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2569'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c51c752105b91f3f8ff4f9fc65e97729'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/orin_nano/microros_ws/install:/home/orin_nano/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'orin_nano'), ('JOURNAL_STREAM', '8:55484'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin_nano'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/orin_nano/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2705,unix/ubuntu:/tmp/.ICE-unix/2705'), ('INVOCATION_ID', 'c0cd3141428e419ea39ebc6779eed743'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a7e7d0a6_9a60_407e_9857_c5160db59010'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.78'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin_nano/microros_ws/install/micro_ros_setup:/home/orin_nano/microros_ws/install/micro_ros_agent:/home/orin_nano/microros_ws/install/micro_ros_msgs:/home/orin_nano/install/joy:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/orin_nano/microros_ws/build/micro_ros_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c51c752105b91f3f8ff4f9fc65e97729'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin_nano/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/orin_nano/microros_ws/install/micro_ros_setup:/home/orin_nano/microros_ws/install/micro_ros_agent:/home/orin_nano/microros_ws/install/micro_ros_msgs:/home/orin_nano/install/joy:/opt/ros/foxy')]), 'shell': False}
+[7.567000] (drive_base_msgs) JobProgress: {'identifier': 'drive_base_msgs', 'progress': 'cmake'}
+[7.567600] (drive_base_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/orin_nano/microros_ws/src/uros/drive_base/drive_base_msgs', '-DCMAKE_INSTALL_PREFIX=/home/orin_nano/microros_ws/install/drive_base_msgs'], 'cwd': '/home/orin_nano/microros_ws/build/drive_base_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin_nano'), ('SSH_AGENT_PID', '2670'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin_nano/microros_ws/install/micro_ros_agent/lib:/home/orin_nano/microros_ws/install/micro_ros_msgs/lib:/home/orin_nano/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/orin_nano'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2569'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c51c752105b91f3f8ff4f9fc65e97729'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/orin_nano/microros_ws/install:/home/orin_nano/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'orin_nano'), ('JOURNAL_STREAM', '8:55484'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin_nano'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/orin_nano/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2705,unix/ubuntu:/tmp/.ICE-unix/2705'), ('INVOCATION_ID', 'c0cd3141428e419ea39ebc6779eed743'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a7e7d0a6_9a60_407e_9857_c5160db59010'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.78'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin_nano/microros_ws/install/micro_ros_setup:/home/orin_nano/microros_ws/install/micro_ros_agent:/home/orin_nano/microros_ws/install/micro_ros_msgs:/home/orin_nano/install/joy:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/orin_nano/microros_ws/build/drive_base_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c51c752105b91f3f8ff4f9fc65e97729'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin_nano/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/orin_nano/microros_ws/install/micro_ros_setup:/home/orin_nano/microros_ws/install/micro_ros_agent:/home/orin_nano/microros_ws/install/micro_ros_msgs:/home/orin_nano/install/joy:/opt/ros/foxy')]), 'shell': False}
+[7.577288] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'cmake'}
+[7.579301] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'build'}
+[7.580994] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orin_nano/microros_ws/build/micro_ros_setup', '--', '-j6', '-l6'], 'cwd': '/home/orin_nano/microros_ws/build/micro_ros_setup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin_nano'), ('SSH_AGENT_PID', '2670'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin_nano/microros_ws/install/micro_ros_agent/lib:/home/orin_nano/microros_ws/install/micro_ros_msgs/lib:/home/orin_nano/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/orin_nano'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2569'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c51c752105b91f3f8ff4f9fc65e97729'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/orin_nano/microros_ws/install:/home/orin_nano/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'orin_nano'), ('JOURNAL_STREAM', '8:55484'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin_nano'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/orin_nano/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2705,unix/ubuntu:/tmp/.ICE-unix/2705'), ('INVOCATION_ID', 'c0cd3141428e419ea39ebc6779eed743'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a7e7d0a6_9a60_407e_9857_c5160db59010'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.78'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin_nano/microros_ws/install/micro_ros_setup:/home/orin_nano/microros_ws/install/micro_ros_agent:/home/orin_nano/microros_ws/install/micro_ros_msgs:/home/orin_nano/install/joy:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/orin_nano/microros_ws/build/micro_ros_setup'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c51c752105b91f3f8ff4f9fc65e97729'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin_nano/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/orin_nano/microros_ws/install/micro_ros_setup:/home/orin_nano/microros_ws/install/micro_ros_agent:/home/orin_nano/microros_ws/install/micro_ros_msgs:/home/orin_nano/install/joy:/opt/ros/foxy')]), 'shell': False}
+[7.582639] (-) TimerEvent: {}
+[7.608652] (rosidl_adapter) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[7.615619] (rosidl_typesupport_interface) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[7.621752] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[7.656849] (rosidl_typesupport_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[7.657383] (rosidl_adapter) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[7.657578] (rosidl_adapter) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.657720] (micro_ros_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[7.657878] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.658005] (rosidl_typesupport_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.682842] (-) TimerEvent: {}
+[7.783640] (-) TimerEvent: {}
+[7.807590] (rosidl_runtime_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[7.808185] (drive_base_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[7.883789] (-) TimerEvent: {}
+[7.981818] (drive_base_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[7.982384] (rosidl_runtime_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[7.983870] (-) TimerEvent: {}
+[7.990993] (rosidl_runtime_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[7.991347] (drive_base_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[8.084095] (-) TimerEvent: {}
+[8.099400] (micro_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[8.106579] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.116035] (micro_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[8.130385] (rosidl_typesupport_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[8.135807] (rosidl_runtime_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[8.136897] (drive_base_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[8.138823] (drive_base_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[8.139016] (rosidl_runtime_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[8.183456] (rosidl_adapter) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[8.184145] (-) TimerEvent: {}
+[8.284951] (-) TimerEvent: {}
+[8.285595] (drive_base_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[8.286708] (rosidl_runtime_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[8.305416] (rosidl_runtime_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[8.305884] (drive_base_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[8.306222] (drive_base_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[8.306389] (rosidl_runtime_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[8.311358] (drive_base_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[8.311860] (rosidl_runtime_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[8.352351] (rosidl_adapter) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[8.361106] (rosidl_adapter) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[8.363198] (rosidl_adapter) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.365088] (rosidl_adapter) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[8.370337] (rosidl_adapter) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.385115] (-) TimerEvent: {}
+[8.393453] (rosidl_typesupport_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[8.424377] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.476833] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[8.479281] (drive_base_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[8.479631] (drive_base_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[8.485281] (-) TimerEvent: {}
+[8.490990] (rosidl_runtime_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[8.493236] (rosidl_runtime_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[8.508846] (rosidl_typesupport_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[8.517142] (rosidl_typesupport_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[8.585456] (-) TimerEvent: {}
+[8.639536] (drive_base_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[8.660907] (drive_base_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[8.661796] (drive_base_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[8.662954] (rosidl_runtime_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[8.663327] (rosidl_typesupport_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[8.664874] (rosidl_typesupport_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[8.666649] (drive_base_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[8.674910] (micro_ros_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[8.683412] (rosidl_runtime_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[8.684233] (rosidl_runtime_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[8.685510] (-) TimerEvent: {}
+[8.689369] (rosidl_runtime_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[8.718579] (drive_base_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[8.719228] (drive_base_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.742104] (rosidl_runtime_cpp) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[8.742717] (rosidl_runtime_cpp) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.785702] (-) TimerEvent: {}
+[8.825769] (rosidl_typesupport_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[8.838343] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[8.845274] (rosidl_typesupport_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[8.845824] (rosidl_typesupport_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[8.850987] (rosidl_typesupport_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[8.885843] (-) TimerEvent: {}
+[8.986552] (-) TimerEvent: {}
+[9.010234] (rosidl_typesupport_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[9.012264] (rosidl_typesupport_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[9.046041] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.065776] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.086734] (-) TimerEvent: {}
+[9.118043] (micro_ros_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[9.119348] (micro_ros_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[9.173819] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[9.174355] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[9.174529] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[9.174777] (rosidl_typesupport_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[9.186861] (-) TimerEvent: {}
+[9.187699] (drive_base_msgs) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[9.194023] (rosidl_typesupport_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[9.194927] (rosidl_typesupport_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[9.201349] (rosidl_typesupport_interface) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[9.206592] (rosidl_typesupport_interface) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[9.208760] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[9.209843] (rosidl_runtime_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[9.231195] (rosidl_runtime_cpp) StderrLine: {'line': b'CMake Error at CMakeLists.txt:19 (find_package):\n'}
+[9.231845] (rosidl_runtime_cpp) StderrLine: {'line': b'  By not providing "Findperformance_test_fixture.cmake" in CMAKE_MODULE_PATH\n'}
+[9.232013] (rosidl_runtime_cpp) StderrLine: {'line': b'  this project has asked CMake to find a package configuration file provided\n'}
+[9.232158] (rosidl_runtime_cpp) StderrLine: {'line': b'  by "performance_test_fixture", but CMake did not find one.\n'}
+[9.232293] (rosidl_runtime_cpp) StderrLine: {'line': b'\n'}
+[9.232421] (rosidl_runtime_cpp) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[9.232545] (rosidl_runtime_cpp) StderrLine: {'line': b'  "performance_test_fixture" with any of the following names:\n'}
+[9.232664] (rosidl_runtime_cpp) StderrLine: {'line': b'\n'}
+[9.232798] (rosidl_runtime_cpp) StderrLine: {'line': b'    performance_test_fixtureConfig.cmake\n'}
+[9.232915] (rosidl_runtime_cpp) StderrLine: {'line': b'    performance_test_fixture-config.cmake\n'}
+[9.233030] (rosidl_runtime_cpp) StderrLine: {'line': b'\n'}
+[9.233142] (rosidl_runtime_cpp) StderrLine: {'line': b'  Add the installation prefix of "performance_test_fixture" to\n'}
+[9.233255] (rosidl_runtime_cpp) StderrLine: {'line': b'  CMAKE_PREFIX_PATH or set "performance_test_fixture_DIR" to a directory\n'}
+[9.233371] (rosidl_runtime_cpp) StderrLine: {'line': b'  containing one of the above files.  If "performance_test_fixture" provides\n'}
+[9.233582] (rosidl_runtime_cpp) StderrLine: {'line': b'  a separate development package or SDK, be sure it has been installed.\n'}
+[9.233856] (rosidl_runtime_cpp) StderrLine: {'line': b'\n'}
+[9.233982] (rosidl_runtime_cpp) StderrLine: {'line': b'\n'}
+[9.234100] (rosidl_runtime_cpp) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[9.234241] (rosidl_runtime_cpp) StdoutLine: {'line': b'See also "/home/orin_nano/microros_ws/build/rosidl_runtime_cpp/CMakeFiles/CMakeOutput.log".\n'}
+[9.243130] (rosidl_runtime_cpp) CommandEnded: {'returncode': 1}
+[9.248877] (drive_base_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.256463] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[9.261143] (drive_base_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[9.265983] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.287246] (-) TimerEvent: {}
+[9.292492] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.313194] (micro_ros_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.374143] (rosidl_typesupport_interface) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[9.374622] (rosidl_typesupport_interface) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[9.387623] (-) TimerEvent: {}
+[9.401471] (micro_ros_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[9.408819] (micro_ros_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/orin_nano/microros_ws/build/micro_ros_msgs\n'}
+[9.460003] (drive_base_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[9.487769] (-) TimerEvent: {}
+[9.521366] (drive_base_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[9.526823] (rosidl_typesupport_interface) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[9.527682] (rosidl_typesupport_interface) StdoutLine: {'line': b'-- Check if compiler accepts -pthread\n'}
+[9.587954] (-) TimerEvent: {}
+[9.676577] (drive_base_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.678180] (rosidl_typesupport_interface) StdoutLine: {'line': b'-- Check if compiler accepts -pthread - yes\n'}
+[9.679692] (rosidl_typesupport_interface) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.687709] (rosidl_typesupport_interface) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[9.688265] (-) TimerEvent: {}
+[9.690110] (rosidl_typesupport_interface) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[9.691239] (rosidl_typesupport_interface) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/orin_nano/microros_ws/rosidl-foxy/rosidl_typesupport_interface/include\n'}
+[9.692797] (rosidl_typesupport_interface) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[9.693607] (rosidl_typesupport_interface) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[9.694433] (rosidl_typesupport_interface) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[9.694609] (rosidl_typesupport_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.695475] (rosidl_typesupport_interface) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[9.695950] (rosidl_typesupport_interface) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[9.696711] (rosidl_typesupport_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.702649] (rosidl_typesupport_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.715228] (rosidl_typesupport_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[9.718587] (rosidl_typesupport_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/orin_nano/microros_ws/build/rosidl_typesupport_interface\n'}
+[9.773472] (drive_base_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[9.788534] (-) TimerEvent: {}
+[9.841583] (drive_base_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[9.853996] (rosidl_runtime_cpp) JobEnded: {'identifier': 'rosidl_runtime_cpp', 'rc': 1}
+[9.857523] (micro_ros_msgs) JobEnded: {'identifier': 'micro_ros_msgs', 'rc': 'SIGINT'}
+[9.858262] (rosidl_typesupport_interface) JobEnded: {'identifier': 'rosidl_typesupport_interface', 'rc': 'SIGINT'}
+[9.858759] (micro_ros_setup) JobEnded: {'identifier': 'micro_ros_setup', 'rc': 'SIGINT'}
+[9.888716] (-) TimerEvent: {}
+[9.989355] (-) TimerEvent: {}
+[10.035497] (rosidl_adapter) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.039924] (rosidl_adapter) StdoutLine: {'line': b'-- Generating done\n'}
+[10.041349] (rosidl_adapter) StdoutLine: {'line': b'-- Build files have been written to: /home/orin_nano/microros_ws/build/rosidl_adapter\n'}
+[10.047052] (rosidl_adapter) JobEnded: {'identifier': 'rosidl_adapter', 'rc': 'SIGINT'}
+[10.089433] (-) TimerEvent: {}
+[10.189827] (drive_base_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)\n'}
+[10.190311] (-) TimerEvent: {}
+[10.193512] (drive_base_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)\n'}
+[10.197342] (drive_base_msgs) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.9.8 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)\n'}
+[10.201671] (drive_base_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[10.290502] (-) TimerEvent: {}
+[10.391173] (-) TimerEvent: {}
+[10.491837] (-) TimerEvent: {}
+[10.540504] (drive_base_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.591944] (-) TimerEvent: {}
+[10.658126] (drive_base_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.692063] (-) TimerEvent: {}
+[10.708835] (drive_base_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[10.711638] (drive_base_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[10.765369] (drive_base_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[10.765914] (drive_base_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[10.766080] (drive_base_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[10.766224] (drive_base_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[10.792140] (-) TimerEvent: {}
+[10.807558] (drive_base_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[10.892325] (-) TimerEvent: {}
+[10.936082] (drive_base_msgs) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.9.8 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)\n'}
+[10.939788] (drive_base_msgs) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.9.8 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)\n'}
+[10.961573] (drive_base_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.992401] (-) TimerEvent: {}
+[11.054510] (drive_base_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[11.060001] (drive_base_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/orin_nano/microros_ws/build/drive_base_msgs\n'}
+[11.084696] (drive_base_msgs) JobEnded: {'identifier': 'drive_base_msgs', 'rc': 'SIGINT'}
+[11.092507] (-) TimerEvent: {}
+[11.096229] (micro_ros_agent) JobSkipped: {'identifier': 'micro_ros_agent'}
+[11.096458] (rosidl_parser) JobSkipped: {'identifier': 'rosidl_parser'}
+[11.096640] (rosidl_runtime_c) JobSkipped: {'identifier': 'rosidl_runtime_c'}
+[11.096763] (rosidl_cmake) JobSkipped: {'identifier': 'rosidl_cmake'}
+[11.096877] (rosidl_generator_c) JobSkipped: {'identifier': 'rosidl_generator_c'}
+[11.097006] (rosidl_typesupport_introspection_c) JobSkipped: {'identifier': 'rosidl_typesupport_introspection_c'}
+[11.097072] (micro_ros_utilities) JobSkipped: {'identifier': 'micro_ros_utilities'}
+[11.097126] (rosidl_generator_cpp) JobSkipped: {'identifier': 'rosidl_generator_cpp'}
+[11.097222] (rosidl_typesupport_introspection_cpp) JobSkipped: {'identifier': 'rosidl_typesupport_introspection_cpp'}
+[11.097325] (-) EventReactorShutdown: {}

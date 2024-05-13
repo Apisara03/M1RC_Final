@@ -1,0 +1,40 @@
+[5.019s] Invoking command in '/home/orin_nano/microros_ws/build/rosidl_runtime_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/microros_ws/build/rosidl_runtime_cpp -- -j6 -l6
+[5.174s] [ 25%] Built target gtest
+[5.176s] [ 50%] Built target gtest_main
+[5.217s] [ 75%] Built target benchmark_bounded_vector
+[5.258s] [100%] Built target test_bounded_vector
+[5.352s] Invoked command in '/home/orin_nano/microros_ws/build/rosidl_runtime_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/microros_ws/build/rosidl_runtime_cpp -- -j6 -l6
+[7.237s] Invoking command in '/home/orin_nano/microros_ws/build/rosidl_runtime_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/microros_ws/build/rosidl_runtime_cpp
+[7.264s] -- Install configuration: ""
+[7.264s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_runtime_cpp/share/ament_index/resource_index/rosidl_runtime_packages/rosidl_runtime_cpp
+[7.264s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_runtime_cpp/include
+[7.265s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_runtime_cpp/include/rosidl_typesupport_cpp
+[7.265s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_runtime_cpp/include/rosidl_typesupport_cpp/message_type_support.hpp
+[7.265s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_runtime_cpp/include/rosidl_typesupport_cpp/action_type_support.hpp
+[7.265s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_runtime_cpp/include/rosidl_typesupport_cpp/service_type_support.hpp
+[7.266s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_runtime_cpp/include/rosidl_runtime_cpp
+[7.266s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_runtime_cpp/include/rosidl_runtime_cpp/bounded_vector.hpp
+[7.267s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_runtime_cpp/include/rosidl_runtime_cpp/action_type_support_decl.hpp
+[7.268s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_runtime_cpp/include/rosidl_runtime_cpp/message_initialization.hpp
+[7.268s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_runtime_cpp/include/rosidl_runtime_cpp/service_type_support_decl.hpp
+[7.268s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_runtime_cpp/include/rosidl_runtime_cpp/message_type_support_decl.hpp
+[7.269s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_runtime_cpp/include/rosidl_runtime_cpp/traits.hpp
+[7.269s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_runtime_cpp/share/ament_index/resource_index/package_run_dependencies/rosidl_runtime_cpp
+[7.269s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_runtime_cpp/share/ament_index/resource_index/parent_prefix_path/rosidl_runtime_cpp
+[7.269s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_runtime_cpp/share/rosidl_runtime_cpp/environment/ament_prefix_path.sh
+[7.270s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_runtime_cpp/share/rosidl_runtime_cpp/environment/ament_prefix_path.dsv
+[7.270s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_runtime_cpp/share/rosidl_runtime_cpp/environment/path.sh
+[7.274s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_runtime_cpp/share/rosidl_runtime_cpp/environment/path.dsv
+[7.274s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_runtime_cpp/share/rosidl_runtime_cpp/local_setup.bash
+[7.274s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_runtime_cpp/share/rosidl_runtime_cpp/local_setup.sh
+[7.275s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_runtime_cpp/share/rosidl_runtime_cpp/local_setup.zsh
+[7.275s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_runtime_cpp/share/rosidl_runtime_cpp/local_setup.dsv
+[7.275s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_runtime_cpp/share/rosidl_runtime_cpp/package.dsv
+[7.275s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_runtime_cpp/share/ament_index/resource_index/packages/rosidl_runtime_cpp
+[7.277s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_runtime_cpp/share/rosidl_runtime_cpp/cmake/rosidl_runtime_cppExport.cmake
+[7.277s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_runtime_cpp/share/rosidl_runtime_cpp/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.277s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_runtime_cpp/share/rosidl_runtime_cpp/cmake/ament_cmake_export_targets-extras.cmake
+[7.278s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_runtime_cpp/share/rosidl_runtime_cpp/cmake/rosidl_runtime_cppConfig.cmake
+[7.279s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_runtime_cpp/share/rosidl_runtime_cpp/cmake/rosidl_runtime_cppConfig-version.cmake
+[7.279s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_runtime_cpp/share/rosidl_runtime_cpp/package.xml
+[10.801s] Invoked command in '/home/orin_nano/microros_ws/build/rosidl_runtime_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/microros_ws/build/rosidl_runtime_cpp

@@ -1,0 +1,5 @@
+[5.137s] Invoking command in '/home/orin_nano/microros_ws/build/rosidl_runtime_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/microros_ws/build/rosidl_runtime_cpp -- -j6 -l6
+[5.248s] CMake Error: The source directory "/home/orin_nano/microros_ws/rosidl-foxy/rosidl_runtime_cpp" does not exist.
+[5.248s] Specify --help for usage, or press the help button on the CMake GUI.
+[5.248s] make: *** [Makefile:338: cmake_check_build_system] Error 1
+[5.342s] Invoked command in '/home/orin_nano/microros_ws/build/rosidl_runtime_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/microros_ws/build/rosidl_runtime_cpp -- -j6 -l6

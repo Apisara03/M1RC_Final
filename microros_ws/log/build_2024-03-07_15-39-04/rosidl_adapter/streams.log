@@ -1,0 +1,5 @@
+[7.646s] Invoking command in '/home/orin_nano/microros_ws/build/rosidl_adapter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/microros_ws/build/rosidl_adapter -- -j6 -l6
+[7.776s] CMake Error: The source directory "/home/orin_nano/microros_ws/rosidl-foxy/rosidl_adapter" does not exist.
+[7.778s] Specify --help for usage, or press the help button on the CMake GUI.
+[7.778s] make: *** [Makefile:209: cmake_check_build_system] Error 1
+[7.835s] Invoked command in '/home/orin_nano/microros_ws/build/rosidl_adapter' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/microros_ws/build/rosidl_adapter -- -j6 -l6

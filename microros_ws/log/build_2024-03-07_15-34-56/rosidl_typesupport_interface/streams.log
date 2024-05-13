@@ -1,0 +1,29 @@
+[6.255s] Invoking command in '/home/orin_nano/microros_ws/build/rosidl_typesupport_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/microros_ws/build/rosidl_typesupport_interface -- -j6 -l6
+[6.399s] [ 33%] Built target gtest
+[6.402s] [ 66%] Built target gtest_main
+[6.518s] [100%] Built target test_macros
+[6.636s] Invoked command in '/home/orin_nano/microros_ws/build/rosidl_typesupport_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/microros_ws/build/rosidl_typesupport_interface -- -j6 -l6
+[8.491s] Invoking command in '/home/orin_nano/microros_ws/build/rosidl_typesupport_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/microros_ws/build/rosidl_typesupport_interface
+[8.525s] -- Install configuration: ""
+[8.526s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/share/ament_index/resource_index/package_run_dependencies/rosidl_typesupport_interface
+[8.527s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/share/ament_index/resource_index/parent_prefix_path/rosidl_typesupport_interface
+[8.528s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/environment/ament_prefix_path.sh
+[8.529s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/environment/ament_prefix_path.dsv
+[8.530s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/environment/path.sh
+[8.531s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/environment/path.dsv
+[8.531s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/local_setup.bash
+[8.532s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/local_setup.sh
+[8.532s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/local_setup.zsh
+[8.534s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/local_setup.dsv
+[8.535s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/package.dsv
+[8.535s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/share/ament_index/resource_index/packages/rosidl_typesupport_interface
+[8.536s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/cmake/rosidl_typesupport_interfaceExport.cmake
+[8.536s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.537s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/cmake/ament_cmake_export_targets-extras.cmake
+[8.537s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/cmake/rosidl_typesupport_interfaceConfig.cmake
+[8.538s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/cmake/rosidl_typesupport_interfaceConfig-version.cmake
+[8.538s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/package.xml
+[8.539s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/include
+[8.539s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/include/rosidl_typesupport_interface
+[8.540s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/include/rosidl_typesupport_interface/macros.h
+[12.812s] Invoked command in '/home/orin_nano/microros_ws/build/rosidl_typesupport_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/microros_ws/build/rosidl_typesupport_interface

@@ -1,0 +1,5 @@
+[6.412s] Invoking command in '/home/orin_nano/microros_ws/build/rosidl_typesupport_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/microros_ws/build/rosidl_typesupport_interface -- -j6 -l6
+[6.529s] CMake Error: The source directory "/home/orin_nano/microros_ws/rosidl-foxy/rosidl_typesupport_interface" does not exist.
+[6.529s] Specify --help for usage, or press the help button on the CMake GUI.
+[6.529s] make: *** [Makefile:294: cmake_check_build_system] Error 1
+[6.601s] Invoked command in '/home/orin_nano/microros_ws/build/rosidl_typesupport_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/microros_ws/build/rosidl_typesupport_interface -- -j6 -l6

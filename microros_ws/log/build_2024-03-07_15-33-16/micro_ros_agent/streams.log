@@ -1,0 +1,42 @@
+[1.400s] Invoking command in '/home/orin_nano/microros_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/orin_nano/microros_ws/install/micro_ros_msgs:/home/orin_nano/microros_ws/install/micro_ros_setup:/home/orin_nano/microros_ws/install/micro_ros_agent:/home/orin_nano/install/joy:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/microros_ws/install/micro_ros_msgs/lib:/home/orin_nano/microros_ws/install/micro_ros_agent/lib:/home/orin_nano/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake /home/orin_nano/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent -DCMAKE_INSTALL_PREFIX=/home/orin_nano/microros_ws/install/micro_ros_agent
+[1.428s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.477s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.941s] -- Found rosidl_cmake: 1.3.1 (/opt/ros/foxy/share/rosidl_cmake/cmake)
+[1.942s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.981s] -- Found fastrtps_cmake_module: 1.0.4 (/opt/ros/foxy/share/fastrtps_cmake_module/cmake)
+[1.982s] -- Found rmw_dds_common: 1.0.3 (/opt/ros/foxy/share/rmw_dds_common/cmake)
+[2.033s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.251s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.306s] -- Found rmw_fastrtps_shared_cpp: 1.3.2 (/opt/ros/foxy/share/rmw_fastrtps_shared_cpp/cmake)
+[2.397s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.399s] -- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[2.401s] -- Found micro_ros_msgs: 1.0.0 (/home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake)
+[2.550s] -- Configuring done
+[2.568s] -- Generating done
+[2.570s] -- Build files have been written to: /home/orin_nano/microros_ws/build/micro_ros_agent
+[6.898s] Invoked command in '/home/orin_nano/microros_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/orin_nano/microros_ws/install/micro_ros_msgs:/home/orin_nano/microros_ws/install/micro_ros_setup:/home/orin_nano/microros_ws/install/micro_ros_agent:/home/orin_nano/install/joy:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/microros_ws/install/micro_ros_msgs/lib:/home/orin_nano/microros_ws/install/micro_ros_agent/lib:/home/orin_nano/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake /home/orin_nano/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent -DCMAKE_INSTALL_PREFIX=/home/orin_nano/microros_ws/install/micro_ros_agent
+[6.903s] Invoking command in '/home/orin_nano/microros_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/orin_nano/microros_ws/install/micro_ros_msgs:/home/orin_nano/microros_ws/install/micro_ros_setup:/home/orin_nano/microros_ws/install/micro_ros_agent:/home/orin_nano/install/joy:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/microros_ws/install/micro_ros_msgs/lib:/home/orin_nano/microros_ws/install/micro_ros_agent/lib:/home/orin_nano/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --build /home/orin_nano/microros_ws/build/micro_ros_agent -- -j6 -l6
+[7.054s] [100%] Built target micro_ros_agent
+[9.288s] Invoked command in '/home/orin_nano/microros_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/orin_nano/microros_ws/install/micro_ros_msgs:/home/orin_nano/microros_ws/install/micro_ros_setup:/home/orin_nano/microros_ws/install/micro_ros_agent:/home/orin_nano/install/joy:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/microros_ws/install/micro_ros_msgs/lib:/home/orin_nano/microros_ws/install/micro_ros_agent/lib:/home/orin_nano/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --build /home/orin_nano/microros_ws/build/micro_ros_agent -- -j6 -l6
+[12.925s] Invoking command in '/home/orin_nano/microros_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/orin_nano/microros_ws/install/micro_ros_msgs:/home/orin_nano/microros_ws/install/micro_ros_setup:/home/orin_nano/microros_ws/install/micro_ros_agent:/home/orin_nano/install/joy:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/microros_ws/install/micro_ros_msgs/lib:/home/orin_nano/microros_ws/install/micro_ros_agent/lib:/home/orin_nano/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --install /home/orin_nano/microros_ws/build/micro_ros_agent
+[12.944s] -- Install configuration: ""
+[12.950s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent
+[12.950s] -- Installing: /home/orin_nano/microros_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent
+[12.950s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh
+[12.951s] -- Installing: /home/orin_nano/microros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv
+[12.951s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh
+[12.951s] -- Installing: /home/orin_nano/microros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv
+[12.951s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash
+[12.951s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh
+[12.952s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh
+[12.952s] -- Installing: /home/orin_nano/microros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv
+[12.952s] -- Installing: /home/orin_nano/microros_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv
+[12.952s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent
+[12.952s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.952s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake
+[12.952s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake
+[12.953s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml
+[12.953s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent
+[12.953s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_agent/share/micro_ros_agent/launch
+[12.953s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py
+[12.959s] Invoked command in '/home/orin_nano/microros_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/orin_nano/microros_ws/install/micro_ros_msgs:/home/orin_nano/microros_ws/install/micro_ros_setup:/home/orin_nano/microros_ws/install/micro_ros_agent:/home/orin_nano/install/joy:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/microros_ws/install/micro_ros_msgs/lib:/home/orin_nano/microros_ws/install/micro_ros_agent/lib:/home/orin_nano/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --install /home/orin_nano/microros_ws/build/micro_ros_agent

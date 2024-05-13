@@ -1,0 +1,15 @@
+[3.105s] Invoking command in '/home/orin_nano/microros_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/microros_ws/build/drive_base_msgs -- -j6 -l6
+[3.268s] [  1%] Built target drive_base_msgs__cpp
+[3.270s] [ 12%] Built target drive_base_msgs__rosidl_generator_c
+[3.352s] [ 34%] Built target drive_base_msgs__rosidl_typesupport_c
+[3.352s] [ 34%] Built target drive_base_msgs__rosidl_typesupport_introspection_c
+[3.356s] [ 45%] Built target drive_base_msgs__rosidl_typesupport_cpp
+[3.368s] [ 67%] Built target drive_base_msgs__rosidl_typesupport_introspection_cpp
+[3.369s] [ 67%] Built target drive_base_msgs__rosidl_typesupport_fastrtps_cpp
+[3.427s] [ 78%] Built target drive_base_msgs__rosidl_typesupport_fastrtps_c
+[3.477s] [ 78%] Built target drive_base_msgs
+[3.524s] [ 80%] Built target drive_base_msgs__py
+[3.590s] [ 89%] Built target drive_base_msgs__python
+[3.648s] [ 96%] Built target drive_base_msgs__rosidl_typesupport_introspection_c__pyext
+[3.648s] [ 96%] Built target drive_base_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.649s] [100%] Built target drive_base_msgs__rosidl_typesupport_c__pyext

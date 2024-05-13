@@ -1,0 +1,155 @@
+[3.783s] Invoking command in '/home/orin_nano/microros_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/microros_ws/build/micro_ros_msgs -- -j6 -l6
+[3.915s] [ 10%] Built target micro_ros_msgs__rosidl_generator_c
+[3.947s] [ 12%] Built target micro_ros_msgs__cpp
+[4.000s] [ 23%] Built target micro_ros_msgs__rosidl_typesupport_c
+[4.045s] [ 34%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[4.048s] [ 44%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c
+[4.081s] [ 55%] Built target micro_ros_msgs__rosidl_typesupport_cpp
+[4.082s] [ 65%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp
+[4.172s] [ 76%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c
+[4.179s] [ 76%] Built target micro_ros_msgs
+[4.212s] [ 78%] Built target micro_ros_msgs__py
+[4.267s] [ 87%] Built target micro_ros_msgs__python
+[4.323s] [100%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.323s] [100%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext
+[4.324s] [100%] Built target micro_ros_msgs__rosidl_typesupport_c__pyext
+[5.970s] Invoked command in '/home/orin_nano/microros_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/microros_ws/build/micro_ros_msgs -- -j6 -l6
+[11.091s] Invoking command in '/home/orin_nano/microros_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/microros_ws/build/micro_ros_msgs
+[11.118s] -- Install configuration: ""
+[11.118s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs
+[11.118s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs
+[11.119s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg
+[11.120s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail
+[11.121s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__functions.c
+[11.121s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__functions.c
+[11.122s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__type_support.h
+[11.123s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__struct.h
+[11.123s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__type_support.h
+[11.123s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__struct.h
+[11.130s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__struct.h
+[11.131s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__functions.c
+[11.131s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__functions.h
+[11.131s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__functions.h
+[11.132s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__type_support.h
+[11.132s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__functions.h
+[11.132s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/graph.h
+[11.133s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/entity.h
+[11.133s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/node.h
+[11.135s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h
+[11.136s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh
+[11.137s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv
+[11.138s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so
+[11.139s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs
+[11.140s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg
+[11.140s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail
+[11.141s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h
+[11.142s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h
+[11.142s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h
+[11.143s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.144s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so
+[11.144s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs
+[11.145s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg
+[11.145s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail
+[11.146s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp
+[11.147s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp
+[11.148s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/dds_fastrtps
+[11.149s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp
+[11.149s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.150s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
+[11.150s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs
+[11.151s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg
+[11.152s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail
+[11.152s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__type_support.c
+[11.153s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__type_support.c
+[11.153s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h
+[11.154s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__type_support.c
+[11.154s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h
+[11.155s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h
+[11.155s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.156s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so
+[11.156s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so
+[11.157s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs
+[11.158s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg
+[11.158s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail
+[11.159s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__builder.hpp
+[11.160s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__struct.hpp
+[11.160s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__traits.hpp
+[11.161s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__traits.hpp
+[11.162s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__traits.hpp
+[11.162s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__struct.hpp
+[11.163s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__type_support.hpp
+[11.163s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__builder.hpp
+[11.163s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__type_support.hpp
+[11.163s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__builder.hpp
+[11.163s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__type_support.hpp
+[11.164s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__struct.hpp
+[11.164s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/graph.hpp
+[11.165s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[11.165s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/node.hpp
+[11.166s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/entity.hpp
+[11.167s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs
+[11.167s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg
+[11.168s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail
+[11.168s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp
+[11.169s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp
+[11.169s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__type_support.cpp
+[11.170s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__type_support.cpp
+[11.170s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__type_support.cpp
+[11.171s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp
+[11.172s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so
+[11.174s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so
+[11.176s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh
+[11.177s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv
+[11.181s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/__init__.py
+[11.238s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg
+[11.239s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_node.py
+[11.239s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_entity_s.c
+[11.240s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_entity.py
+[11.241s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_node_s.c
+[11.242s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_graph.py
+[11.243s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/__init__.py
+[11.244s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_graph_s.c
+[11.244s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[11.245s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[11.246s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[11.247s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__python.so
+[11.248s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl
+[11.248s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl
+[11.249s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl
+[11.249s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg
+[11.250s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg
+[11.251s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg
+[11.252s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs
+[11.252s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs
+[11.253s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh
+[11.254s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv
+[11.254s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh
+[11.255s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv
+[11.255s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash
+[11.256s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh
+[11.257s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh
+[11.257s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv
+[11.258s] -- Installing: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv
+[11.259s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs
+[11.260s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_generator_cExport.cmake
+[11.261s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_generator_cExport-noconfig.cmake
+[11.262s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake
+[11.263s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.264s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake
+[11.265s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[11.265s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_generator_cppExport.cmake
+[11.266s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[11.267s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.269s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake
+[11.276s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[11.276s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake
+[11.277s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.278s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[11.278s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[11.280s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.281s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.282s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.284s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake
+[11.285s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake
+[11.285s] -- Up-to-date: /home/orin_nano/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.xml
+[12.256s] Invoked command in '/home/orin_nano/microros_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/microros_ws/build/micro_ros_msgs

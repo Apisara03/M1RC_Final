@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/test_service_type_support.dir/test/test_service_type_support.cpp.o  -o test_service_type_support  -Wl,-rpath,/home/orin_nano/microros_ws/build/rosidl_runtime_c:/opt/ros/foxy/lib gtest/libgtest_main.a gtest/libgtest.a librosidl_runtime_c.so -pthread /opt/ros/foxy/lib/librcutils.so -ldl 

@@ -1,0 +1,5 @@
+[1.317s] Invoking command in '/home/orin_nano/microros_ws/build/micro_ros_utilities': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/microros_ws/build/micro_ros_utilities -- -j6 -l6
+[1.363s] CMake Error: The source directory "/home/orin_nano/microros_ws/micro_ros_utilities/micro_ros_utilities" does not exist.
+[1.363s] Specify --help for usage, or press the help button on the CMake GUI.
+[1.364s] make: *** [Makefile:398: cmake_check_build_system] Error 1
+[1.369s] Invoked command in '/home/orin_nano/microros_ws/build/micro_ros_utilities' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/microros_ws/build/micro_ros_utilities -- -j6 -l6

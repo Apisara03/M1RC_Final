@@ -1,0 +1,39 @@
+[1.281s] Invoking command in '/home/orin_nano/microros_ws/build/rosidl_cmake': AMENT_PREFIX_PATH=/home/orin_nano/microros_ws/install/rosidl_parser:/home/orin_nano/microros_ws/install/rosidl_adapter:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/microros_ws/install/rosidl_parser:/home/orin_nano/microros_ws/install/rosidl_adapter:/home/orin_nano/microros_ws/install/micro_ros_setup:/home/orin_nano/microros_ws/install/micro_ros_agent:/home/orin_nano/microros_ws/install/micro_ros_msgs:/home/orin_nano/install/joy:/opt/ros/foxy PYTHONPATH=/home/orin_nano/microros_ws/install/rosidl_parser/lib/python3.8/site-packages:/home/orin_nano/microros_ws/install/rosidl_adapter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orin_nano/microros_ws/build/rosidl_cmake -- -j6 -l6
+[2.390s] Invoked command in '/home/orin_nano/microros_ws/build/rosidl_cmake' returned '0': AMENT_PREFIX_PATH=/home/orin_nano/microros_ws/install/rosidl_parser:/home/orin_nano/microros_ws/install/rosidl_adapter:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/microros_ws/install/rosidl_parser:/home/orin_nano/microros_ws/install/rosidl_adapter:/home/orin_nano/microros_ws/install/micro_ros_setup:/home/orin_nano/microros_ws/install/micro_ros_agent:/home/orin_nano/microros_ws/install/micro_ros_msgs:/home/orin_nano/install/joy:/opt/ros/foxy PYTHONPATH=/home/orin_nano/microros_ws/install/rosidl_parser/lib/python3.8/site-packages:/home/orin_nano/microros_ws/install/rosidl_adapter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orin_nano/microros_ws/build/rosidl_cmake -- -j6 -l6
+[4.720s] Invoking command in '/home/orin_nano/microros_ws/build/rosidl_cmake': AMENT_PREFIX_PATH=/home/orin_nano/microros_ws/install/rosidl_parser:/home/orin_nano/microros_ws/install/rosidl_adapter:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/microros_ws/install/rosidl_parser:/home/orin_nano/microros_ws/install/rosidl_adapter:/home/orin_nano/microros_ws/install/micro_ros_setup:/home/orin_nano/microros_ws/install/micro_ros_agent:/home/orin_nano/microros_ws/install/micro_ros_msgs:/home/orin_nano/install/joy:/opt/ros/foxy PYTHONPATH=/home/orin_nano/microros_ws/install/rosidl_parser/lib/python3.8/site-packages:/home/orin_nano/microros_ws/install/rosidl_adapter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/orin_nano/microros_ws/build/rosidl_cmake
+[4.740s] -- Install configuration: ""
+[4.740s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_cmake/share/rosidl_cmake/environment/pythonpath.sh
+[4.741s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_cmake/share/rosidl_cmake/environment/pythonpath.dsv
+[4.741s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_cmake/lib/python3.8/site-packages/rosidl_cmake
+[4.742s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_cmake/lib/python3.8/site-packages/rosidl_cmake/__init__.py
+[4.801s] Listing '/home/orin_nano/microros_ws/install/rosidl_cmake/lib/python3.8/site-packages/rosidl_cmake'...
+[4.810s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_cmake/share/ament_index/resource_index/package_run_dependencies/rosidl_cmake
+[4.811s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_cmake/share/ament_index/resource_index/parent_prefix_path/rosidl_cmake
+[4.812s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_cmake/share/rosidl_cmake/environment/ament_prefix_path.sh
+[4.813s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_cmake/share/rosidl_cmake/environment/ament_prefix_path.dsv
+[4.814s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_cmake/share/rosidl_cmake/environment/path.sh
+[4.815s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_cmake/share/rosidl_cmake/environment/path.dsv
+[4.816s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_cmake/share/rosidl_cmake/local_setup.bash
+[4.817s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_cmake/share/rosidl_cmake/local_setup.sh
+[4.818s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_cmake/share/rosidl_cmake/local_setup.zsh
+[4.819s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_cmake/share/rosidl_cmake/local_setup.dsv
+[4.821s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_cmake/share/rosidl_cmake/package.dsv
+[4.821s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_cmake/share/ament_index/resource_index/packages/rosidl_cmake
+[4.822s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_cmake/share/rosidl_cmake/cmake/rosidl_cmake-extras.cmake
+[4.823s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_cmake/share/rosidl_cmake/cmake/rosidl_cmakeConfig.cmake
+[4.824s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_cmake/share/rosidl_cmake/cmake/rosidl_cmakeConfig-version.cmake
+[4.824s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_cmake/share/rosidl_cmake/package.xml
+[4.825s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_cmake/share/rosidl_cmake/cmake
+[4.827s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_cmake/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake
+[4.828s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_cmake/share/rosidl_cmake/cmake/rosidl_cmake_package_hook.cmake
+[4.829s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_cmake/share/rosidl_cmake/cmake/rosidl_export_typesupport_libraries.cmake
+[4.830s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_cmake/share/rosidl_cmake/cmake/rosidl_cmake_export_typesupport_targets_package_hook.cmake
+[4.830s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_cmake/share/rosidl_cmake/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake.in
+[4.831s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_cmake/share/rosidl_cmake/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake.in
+[4.832s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_cmake/share/rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
+[4.833s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_cmake/share/rosidl_cmake/cmake/rosidl_cmake_export_typesupport_libraries_package_hook.cmake
+[4.833s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_cmake/share/rosidl_cmake/cmake/string_camel_case_to_lower_case_underscore.cmake
+[4.834s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_cmake/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake
+[4.835s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_cmake/share/rosidl_cmake/cmake/rosidl_write_generator_arguments.cmake
+[4.836s] -- Up-to-date: /home/orin_nano/microros_ws/install/rosidl_cmake/share/rosidl_cmake/cmake/rosidl_export_typesupport_targets.cmake
+[5.999s] Invoked command in '/home/orin_nano/microros_ws/build/rosidl_cmake' returned '0': AMENT_PREFIX_PATH=/home/orin_nano/microros_ws/install/rosidl_parser:/home/orin_nano/microros_ws/install/rosidl_adapter:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/microros_ws/install/rosidl_parser:/home/orin_nano/microros_ws/install/rosidl_adapter:/home/orin_nano/microros_ws/install/micro_ros_setup:/home/orin_nano/microros_ws/install/micro_ros_agent:/home/orin_nano/microros_ws/install/micro_ros_msgs:/home/orin_nano/install/joy:/opt/ros/foxy PYTHONPATH=/home/orin_nano/microros_ws/install/rosidl_parser/lib/python3.8/site-packages:/home/orin_nano/microros_ws/install/rosidl_adapter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/orin_nano/microros_ws/build/rosidl_cmake

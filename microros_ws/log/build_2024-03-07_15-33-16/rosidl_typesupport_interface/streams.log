@@ -1,0 +1,38 @@
+[6.280s] Invoking command in '/home/orin_nano/microros_ws/build/rosidl_typesupport_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/microros_ws/build/rosidl_typesupport_interface -- -j6 -l6
+[6.374s] [35m[1mScanning dependencies of target gtest[0m
+[6.387s] [35m[1mScanning dependencies of target gtest_main[0m
+[6.418s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[6.431s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[8.415s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[8.597s] [ 50%] Built target gtest_main
+[16.378s] [ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[16.503s] [ 66%] Built target gtest
+[16.528s] [35m[1mScanning dependencies of target test_macros[0m
+[16.562s] [ 83%] [32mBuilding CXX object CMakeFiles/test_macros.dir/test/test_macros.cpp.o[0m
+[18.184s] [100%] [32m[1mLinking CXX executable test_macros[0m
+[18.464s] [100%] Built target test_macros
+[20.079s] Invoked command in '/home/orin_nano/microros_ws/build/rosidl_typesupport_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/microros_ws/build/rosidl_typesupport_interface -- -j6 -l6
+[20.143s] Invoking command in '/home/orin_nano/microros_ws/build/rosidl_typesupport_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/microros_ws/build/rosidl_typesupport_interface
+[20.167s] -- Install configuration: ""
+[20.172s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/share/ament_index/resource_index/package_run_dependencies/rosidl_typesupport_interface
+[20.174s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/share/ament_index/resource_index/parent_prefix_path/rosidl_typesupport_interface
+[20.175s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/environment/ament_prefix_path.sh
+[20.175s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/environment/ament_prefix_path.dsv
+[20.176s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/environment/path.sh
+[20.176s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/environment/path.dsv
+[20.176s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/local_setup.bash
+[20.176s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/local_setup.sh
+[20.176s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/local_setup.zsh
+[20.177s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/local_setup.dsv
+[20.177s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/package.dsv
+[20.177s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/share/ament_index/resource_index/packages/rosidl_typesupport_interface
+[20.177s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/cmake/rosidl_typesupport_interfaceExport.cmake
+[20.177s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.180s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/cmake/ament_cmake_export_targets-extras.cmake
+[20.180s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/cmake/rosidl_typesupport_interfaceConfig.cmake
+[20.180s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/cmake/rosidl_typesupport_interfaceConfig-version.cmake
+[20.180s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/package.xml
+[20.180s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/include
+[20.180s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/include/rosidl_typesupport_interface
+[20.181s] -- Installing: /home/orin_nano/microros_ws/install/rosidl_typesupport_interface/include/rosidl_typesupport_interface/macros.h
+[20.183s] Invoked command in '/home/orin_nano/microros_ws/build/rosidl_typesupport_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/microros_ws/build/rosidl_typesupport_interface
